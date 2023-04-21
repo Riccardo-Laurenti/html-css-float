@@ -1,0 +1,82 @@
+/*Generics*/
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Fredoka', sans serif;
+}
+
+
+/*Header*/
+
+
+header {
+ margin: 50px 0;
+ text-align: center;
+}
+
+h1 {
+    font-size: 40px;
+    color: RGB(237,0,169);
+    margin-bottom: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    margin-bottom: 50px;
+    font-size: 20px;
+}
+
+a {
+    color: dodgerblue;
+}
+
+h3 {
+    text-transform: uppercase;
+}
+.container {
+    max-width: 1180px;
+    margin: 0px auto;
+}
+
+
+/*Main*/
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+.column {
+    float: left;
+    width: calc(100% / 3);
+    padding: 10px;
+}
+
+.card {
+    height: 100px;
+    background-color: black;
+    color: white;
+}
+
+.card-img {
+    width: auto;
+    height: 100%;
+    float: left;
+    margin-right: 10px;
+}
+
+.card-content {
+    padding: 10px;
+    line-height: calc(80px / 3);
+}
+
+.row {
+    margin: 0 -10px;
+}
