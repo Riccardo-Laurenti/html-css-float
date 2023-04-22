@@ -18,6 +18,7 @@ header {
  text-align: center;
 }
 
+
 h1 {
     font-size: 40px;
     color: RGB(237,0,169);
@@ -32,13 +33,18 @@ p {
     font-size: 20px;
 }
 
+
 a {
     color: dodgerblue;
 }
 
+
 h3 {
     text-transform: uppercase;
 }
+
+/*container*/
+
 .container {
     max-width: 1180px;
     margin: 0px auto;
@@ -46,6 +52,7 @@ h3 {
 
 
 /*Main*/
+
 .clearfix::after {
     content: '';
     display: table;
